@@ -1,0 +1,58 @@
+# TwoColumns5050
+tt_content {
+    section-1col < lib.contentElement
+    section-1col {
+        templateName = Section
+        templateRootPaths {
+            10 = EXT:sections/Resources/Private/Templates/
+        }
+
+        dataProcessing {
+            100 = B13\Container\DataProcessing\ContainerProcessor
+        }
+    }
+    section-2cols < lib.contentElement
+    section-2cols {
+        templateName = Section-2cols
+        templateRootPaths {
+            10 = EXT:sections/Resources/Private/Templates/
+        }
+
+        dataProcessing {
+            100 = B13\Container\DataProcessing\ContainerProcessor
+        }
+    }
+    section-3cols < lib.contentElement
+    section-3cols {
+        templateName = Section-3cols
+        templateRootPaths {
+            10 = EXT:sections/Resources/Private/Templates/
+        }
+
+        dataProcessing {
+            100 = B13\Container\DataProcessing\ContainerProcessor
+        }
+    }
+    section-33-66 < lib.contentElement
+    section-33-66 {
+        templateName = Section-33-66
+        templateRootPaths {
+            10 = EXT:sections/Resources/Private/Templates/
+        }
+
+        dataProcessing {
+            100 = B13\Container\DataProcessing\ContainerProcessor
+        }
+    }
+    section-66-33 < lib.contentElement
+    section-66-33 {
+        templateName = Section-66-33
+        templateRootPaths {
+            10 = EXT:sections/Resources/Private/Templates/
+        }
+
+        dataProcessing {
+            100 = B13\Container\DataProcessing\ContainerProcessor
+        }
+    }
+}

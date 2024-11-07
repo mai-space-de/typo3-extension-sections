@@ -1,0 +1,15 @@
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<div id="c{data.uid}" style="margin-top:1rem; display:flex; flex-flow: row; flex-wrap: wrap; gap: 1rem;">
+    <div style="border: 1px solid black; padding: 1rem; flex-grow: 1; flex-basis: 55ch;">
+        <f:for each="{children_101}" as="record">
+            {record.renderedContent -> f:format.raw()}
+        </f:for>
+    </div>
+    <div style="border: 1px solid black; padding: 1rem; flex-grow: 1; flex-basis: 55ch;">
+        <f:for each="{children_102}" as="record">
+            {record.renderedContent -> f:format.raw()}
+        </f:for>
+    </div>
+</div>
+</html>
