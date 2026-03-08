@@ -19,6 +19,9 @@
   "extra": {
     "typo3/cms": {
       "extension-key": "sections"
+    },
+    "branch-alias": {
+      "dev-main": "13.0.x-dev"
     }
   }
 }
