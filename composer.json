@@ -9,7 +9,8 @@
     "role": "Lead Developer"
   }],
   "require": {
-    "b13/container": "^3.0"
+    "b13/container": "^3.0",
+    "friendsoftypo3/visual-editor": "*"
   },
   "autoload": {
     "psr-4": {
