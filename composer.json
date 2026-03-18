@@ -10,7 +10,7 @@
   }],
   "require": {
     "b13/container": "^3.0",
-    "friendsoftypo3/visual-editor": "*"
+    "friendsoftypo3/visual-editor": "^1.0"
   },
   "autoload": {
     "psr-4": {
