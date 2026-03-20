@@ -1,25 +1,27 @@
 {
-  "name": "maispace/sections",
+  "name": "maispace/mai-sections",
   "type": "typo3-cms-extension",
   "description": "Provides a simple way to create sections for your website.",
   "homepage": "https://www.maispace.de",
-  "authors": [{
-    "name": "Joel Maximilian Mai",
-    "email": "joel@maispace.de",
-    "role": "Lead Developer"
-  }],
+  "authors": [
+    {
+      "name": "Joel Maximilian Mai",
+      "email": "joel@maispace.de",
+      "role": "Lead Developer"
+    }
+  ],
   "require": {
     "b13/container": "^3.0",
     "friendsoftypo3/visual-editor": "^1.0"
   },
   "autoload": {
     "psr-4": {
-      "Maispace\\Sections\\": "Classes/"
+      "Maispace\\MaiSections\\": "Classes/"
     }
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "sections"
+      "extension-key": "mai_sections"
     },
     "branch-alias": {
       "dev-main": "13.0.x-dev"
