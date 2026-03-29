@@ -1,28 +1,17 @@
 <?php
-
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Sections',
-    'description' => 'Provides a simple way to create sections for your website.',
-    'version' => '12.0.0',
+    'title' => 'Mai Sections',
+    'description' => 'Section/container management for building page layouts. Uses `b13/container` (consistent with `mai_bentobox`), `ichhabrecht/content-defender` to restrict allowed content types per column, and `sebkln/content-slug` to provide slug-based in-page anchor IDs on content elements.',
+    'category' => 'module',
+    'author' => 'Maispace',
+    'author_email' => '',
     'state' => 'stable',
-    'category' => 'templates',
-    'author' => 'Joel Maximilian Mai',
-    'author_email' => 'joel@maispace.de',
-    'author_company' => 'Maispace',
+    'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.4.0-12.4.99',
-            'container' => '2.3.0-2.3.99',
+            'typo3' => '13.4.0-14.99.99',
         ],
-        'conflicts' => [
-        ],
-    ],
-    'uploadfolder' => 0,
-    'createDirs' => '',
-    'clearCacheOnLoad' => 1,
-    'autoload' => [
-        'psr-4' => [
-            'Maispace\\MaiSections\\' => 'Classes',
-        ],
+        'conflicts' => [],
+        'suggests' => [],
     ],
 ];
