@@ -1,4 +1,0 @@
-name: maispace/sections
-label: 'MaiSpace Sections'
-dependencies:
-  - maispace/base
