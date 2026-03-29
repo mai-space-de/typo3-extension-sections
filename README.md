@@ -5,7 +5,7 @@
 
 Section/container management for building page layouts. Uses `b13/container` (consistent with `mai_bentobox`), `ichhabrecht/content-defender` to restrict allowed content types per column, and `sebkln/content-slug` to provide slug-based in-page anchor IDs on content elements.
 
-**Requires:** TYPO3 13.4 LTS / 14.0 · PHP 8.2+
+**Requires:** TYPO3 13.4 LTS / 14.1 · PHP 8.2+
 
 ---
 
