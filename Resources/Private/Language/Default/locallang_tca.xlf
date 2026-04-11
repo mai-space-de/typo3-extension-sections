@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:mai_sections/Resources/Private/Language/Default/locallang_tca.xlf">
+        <header/>
+        <body>
+
+            <!-- ============================================================ -->
+            <!-- Tabs -->
+            <!-- ============================================================ -->
+            <trans-unit id="tab.appearance">
+                <source>Appearance</source>
+            </trans-unit>
+            <trans-unit id="tab.spacing_layout">
+                <source>Spacing &amp; Layout</source>
+            </trans-unit>
+            <trans-unit id="tab.columns">
+                <source>Column Behavior</source>
+            </trans-unit>
+            <trans-unit id="tab.theme_effects">
+                <source>Theme &amp; Effects</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Palettes -->
+            <!-- ============================================================ -->
+            <trans-unit id="palette.mai_sections_background">
+                <source>Background</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_overlay">
+                <source>Overlay</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_spacing">
+                <source>Spacing</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_layout">
+                <source>Layout</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_columns">
+                <source>Columns</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_effects">
+                <source>Effects</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_navigation">
+                <source>Navigation</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_theme">
+                <source>Theme</source>
+            </trans-unit>
+            <trans-unit id="palette.mai_sections_advanced">
+                <source>Advanced</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Shared spacing labels (reused across selects) -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.spacing.none">
+                <source>None</source>
+            </trans-unit>
+            <trans-unit id="tt_content.spacing.s">
+                <source>Small</source>
+            </trans-unit>
+            <trans-unit id="tt_content.spacing.m">
+                <source>Medium</source>
+            </trans-unit>
+            <trans-unit id="tt_content.spacing.l">
+                <source>Large</source>
+            </trans-unit>
+            <trans-unit id="tt_content.spacing.xl">
+                <source>Extra Large</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Background -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_background_color">
+                <source>Background Color</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_image">
+                <source>Background Image</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_position">
+                <source>Image Position</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_position.center">
+                <source>Center</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_position.top">
+                <source>Top</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_position.bottom">
+                <source>Bottom</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_position.left">
+                <source>Left</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_position.right">
+                <source>Right</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_size">
+                <source>Image Size</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_size.cover">
+                <source>Cover (fill, crop)</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_size.contain">
+                <source>Contain (fit, no crop)</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_size.auto">
+                <source>Auto (original size)</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_attachment">
+                <source>Scroll Behavior</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_attachment.scroll">
+                <source>Scroll with page</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_background_attachment.fixed">
+                <source>Fixed (parallax-lite)</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Overlay -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_overlay_color">
+                <source>Overlay Color</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_overlay_opacity">
+                <source>Overlay Opacity</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Spacing -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_padding_top">
+                <source>Padding Top</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_padding_bottom">
+                <source>Padding Bottom</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Layout -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_content_width">
+                <source>Content Width</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_content_width.contained">
+                <source>Contained (max-width)</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_content_width.full">
+                <source>Full Width</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_content_width.narrow">
+                <source>Narrow (reading width)</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_vertical_align">
+                <source>Vertical Alignment</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_vertical_align.top">
+                <source>Top</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_vertical_align.center">
+                <source>Center</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_vertical_align.bottom">
+                <source>Bottom</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Column Behavior -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_column_gap">
+                <source>Column Gap</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_stack_mobile">
+                <source>Stack columns on mobile</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_reverse_mobile">
+                <source>Reverse column order on mobile</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Effects -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_animation_type">
+                <source>Animation</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_animation_type.none">
+                <source>None</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_animation_type.fade-in">
+                <source>Fade In</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_animation_type.slide-up">
+                <source>Slide Up</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_animation_type.slide-left">
+                <source>Slide Left</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_animation_type.slide-right">
+                <source>Slide Right</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Navigation -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_anchor_id">
+                <source>Anchor ID</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_anchor_id.description">
+                <source>Used for in-page navigation links (e.g. #my-section). Only letters, numbers, hyphens, and underscores.</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Theme -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_theme">
+                <source>Theme</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_theme.default">
+                <source>Default</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_theme.light">
+                <source>Light</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_theme.dark">
+                <source>Dark</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_theme.primary">
+                <source>Primary</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_maisections_theme.secondary">
+                <source>Secondary</source>
+            </trans-unit>
+
+            <!-- ============================================================ -->
+            <!-- Advanced -->
+            <!-- ============================================================ -->
+            <trans-unit id="tt_content.tx_maisections_css_class">
+                <source>Additional CSS Classes</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

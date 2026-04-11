@@ -1,0 +1,104 @@
+mod.wizards.newContentElement.wizardItems {
+    sections {
+        header = Sections
+        elements {
+            section-1col {
+                iconIdentifier = content-container-columns-1
+                title = Section: 1 Spalte
+                description = Eine Section mit einer Spalte (100 %)
+                tt_content_defValues {
+                    CType = section-1col
+                }
+            }
+            section-2col-50-50 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 50 / 50
+                description = Zwei gleichbreite Spalten
+                tt_content_defValues {
+                    CType = section-2col-50-50
+                }
+            }
+            section-2col-33-66 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 33 / 66
+                description = Schmale linke + breite rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-33-66
+                }
+            }
+            section-2col-66-33 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 66 / 33
+                description = Breite linke + schmale rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-66-33
+                }
+            }
+            section-2col-25-75 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 25 / 75
+                description = Sehr schmale linke + sehr breite rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-25-75
+                }
+            }
+            section-2col-75-25 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 75 / 25
+                description = Sehr breite linke + sehr schmale rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-75-25
+                }
+            }
+            section-3col {
+                iconIdentifier = content-container-columns-3
+                title = Section: 3 Spalten
+                description = Drei gleichbreite Spalten
+                tt_content_defValues {
+                    CType = section-3col
+                }
+            }
+            section-4col {
+                iconIdentifier = content-container-columns-3
+                title = Section: 4 Spalten
+                description = Vier gleichbreite Spalten
+                tt_content_defValues {
+                    CType = section-4col
+                }
+            }
+            section-grid-auto {
+                iconIdentifier = content-container-columns-3
+                title = Section: Auto-Grid
+                description = Responsives Raster mit automatischer Spaltenanzahl
+                tt_content_defValues {
+                    CType = section-grid-auto
+                }
+            }
+            section-fullwidth {
+                iconIdentifier = content-container-columns-1
+                title = Section: Volle Breite
+                description = Bricht aus dem Layout-Container aus — volle Viewport-Breite
+                tt_content_defValues {
+                    CType = section-fullwidth
+                }
+            }
+            section-contained {
+                iconIdentifier = content-container-columns-1
+                title = Section: Zentriert (schmal)
+                description = Zentrierter Inhaltsbereich mit reduzierter maximaler Breite
+                tt_content_defValues {
+                    CType = section-contained
+                }
+            }
+            section-split-screen {
+                iconIdentifier = content-container-columns-2
+                title = Section: Split Screen
+                description = Zwei Hälften in voller Viewport-Höhe
+                tt_content_defValues {
+                    CType = section-split-screen
+                }
+            }
+        }
+        show = *
+    }
+}

@@ -1,6 +1,6 @@
 {
     "name": "maispace/mai-sections",
-    "description": "Section/container management for building page layouts. Uses `b13/container` (consistent with `mai_bentobox`), `ichhabrecht/content-defender` to restrict allowed content types per column, and `sebkln/content-slug` to provide slug-based in-page anchor IDs on content elements.",
+    "description": "Section/container management for building page layouts. Uses `b13/container` to provide layout containers (1col, 2col variants, 3col, 4col, grid-auto, fullwidth, contained, split-screen).",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -9,6 +9,11 @@
             "role": "Developer"
         }
     ],
+    "require": {
+        "php": "^8.2",
+        "b13/container": "^3.0",
+        "typo3/cms-core": "^13.4"
+    },
     "autoload": {
         "psr-4": {
             "Maispace\\MaiSections\\": "Classes"

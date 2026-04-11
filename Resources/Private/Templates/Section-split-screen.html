@@ -1,0 +1,15 @@
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<div id="c{data.uid}" class="section section--split-screen">
+    <div class="section__col section__col--50">
+        <f:for each="{containerItems.101}" as="item">
+            <f:format.raw>{item.renderedContent}</f:format.raw>
+        </f:for>
+    </div>
+    <div class="section__col section__col--50">
+        <f:for each="{containerItems.102}" as="item">
+            <f:format.raw>{item.renderedContent}</f:format.raw>
+        </f:for>
+    </div>
+</div>
+</html>
