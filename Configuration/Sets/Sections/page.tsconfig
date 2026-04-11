@@ -4,42 +4,98 @@ mod.wizards.newContentElement.wizardItems {
         elements {
             section-1col {
                 iconIdentifier = content-container-columns-1
-                title = Einfache Section
-                description = Eine einfache Section mit nur einer Spalte
+                title = Section: 1 Spalte
+                description = Eine Section mit einer Spalte (100 %)
                 tt_content_defValues {
                     CType = section-1col
                 }
             }
-            section-2cols {
+            section-2col-50-50 {
                 iconIdentifier = content-container-columns-2
-                title = Section mit 2 Spalten
-                description = Eine Section mit 2 Spalten
+                title = Section: 50 / 50
+                description = Zwei gleichbreite Spalten
                 tt_content_defValues {
-                    CType = section-2cols
+                    CType = section-2col-50-50
                 }
             }
-            section-3cols {
+            section-2col-33-66 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 33 / 66
+                description = Schmale linke + breite rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-33-66
+                }
+            }
+            section-2col-66-33 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 66 / 33
+                description = Breite linke + schmale rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-66-33
+                }
+            }
+            section-2col-25-75 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 25 / 75
+                description = Sehr schmale linke + sehr breite rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-25-75
+                }
+            }
+            section-2col-75-25 {
+                iconIdentifier = content-container-columns-2
+                title = Section: 75 / 25
+                description = Sehr breite linke + sehr schmale rechte Spalte
+                tt_content_defValues {
+                    CType = section-2col-75-25
+                }
+            }
+            section-3col {
                 iconIdentifier = content-container-columns-3
-                title = Section mit 3 Spalten
-                description = Eine Section mit 3 Spalten
+                title = Section: 3 Spalten
+                description = Drei gleichbreite Spalten
                 tt_content_defValues {
-                    CType = section-3cols
+                    CType = section-3col
                 }
             }
-            section-33-66 {
-                iconIdentifier = content-container-columns-2
-                title = Section mit Aufteilung 33/66
-                description = Eine Section mit zwei Spalten, eine Schmale, eine Große
+            section-4col {
+                iconIdentifier = content-container-columns-3
+                title = Section: 4 Spalten
+                description = Vier gleichbreite Spalten
                 tt_content_defValues {
-                    CType = section-33-66
+                    CType = section-4col
                 }
             }
-            section-66-33 {
-                iconIdentifier = content-container-columns-2
-                title = Section mit Aufteilung 66/33
-                description = Eine Section mit zwei Spalten, eine Große, eine Schmale
+            section-grid-auto {
+                iconIdentifier = content-container-columns-3
+                title = Section: Auto-Grid
+                description = Responsives Raster mit automatischer Spaltenanzahl
                 tt_content_defValues {
-                    CType = section-66-33
+                    CType = section-grid-auto
+                }
+            }
+            section-fullwidth {
+                iconIdentifier = content-container-columns-1
+                title = Section: Volle Breite
+                description = Bricht aus dem Layout-Container aus — volle Viewport-Breite
+                tt_content_defValues {
+                    CType = section-fullwidth
+                }
+            }
+            section-contained {
+                iconIdentifier = content-container-columns-1
+                title = Section: Zentriert (schmal)
+                description = Zentrierter Inhaltsbereich mit reduzierter maximaler Breite
+                tt_content_defValues {
+                    CType = section-contained
+                }
+            }
+            section-split-screen {
+                iconIdentifier = content-container-columns-2
+                title = Section: Split Screen
+                description = Zwei Hälften in voller Viewport-Höhe
+                tt_content_defValues {
+                    CType = section-split-screen
                 }
             }
         }

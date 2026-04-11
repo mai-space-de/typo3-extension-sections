@@ -1,58 +1,85 @@
-# TwoColumns5050
 tt_content {
     section-1col < lib.contentElement
     section-1col {
-        templateName = Section
-        templateRootPaths {
-            10 = EXT:mai_sections/Resources/Private/Templates/
-        }
-
-        dataProcessing {
-            100 = B13\Container\DataProcessing\ContainerProcessor
-        }
+        templateName = Section-1col
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
     }
-    section-2cols < lib.contentElement
-    section-2cols {
-        templateName = Section-2cols
-        templateRootPaths {
-            10 = EXT:mai_sections/Resources/Private/Templates/
-        }
 
-        dataProcessing {
-            100 = B13\Container\DataProcessing\ContainerProcessor
-        }
+    section-2col-50-50 < lib.contentElement
+    section-2col-50-50 {
+        templateName = Section-2col-50-50
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
     }
-    section-3cols < lib.contentElement
-    section-3cols {
-        templateName = Section-3cols
-        templateRootPaths {
-            10 = EXT:mai_sections/Resources/Private/Templates/
-        }
 
-        dataProcessing {
-            100 = B13\Container\DataProcessing\ContainerProcessor
-        }
+    section-2col-33-66 < lib.contentElement
+    section-2col-33-66 {
+        templateName = Section-2col-33-66
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
     }
-    section-33-66 < lib.contentElement
-    section-33-66 {
-        templateName = Section-33-66
-        templateRootPaths {
-            10 = EXT:mai_sections/Resources/Private/Templates/
-        }
 
-        dataProcessing {
-            100 = B13\Container\DataProcessing\ContainerProcessor
-        }
+    section-2col-66-33 < lib.contentElement
+    section-2col-66-33 {
+        templateName = Section-2col-66-33
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
     }
-    section-66-33 < lib.contentElement
-    section-66-33 {
-        templateName = Section-66-33
-        templateRootPaths {
-            10 = EXT:mai_sections/Resources/Private/Templates/
-        }
 
-        dataProcessing {
-            100 = B13\Container\DataProcessing\ContainerProcessor
-        }
+    section-2col-25-75 < lib.contentElement
+    section-2col-25-75 {
+        templateName = Section-2col-25-75
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-2col-75-25 < lib.contentElement
+    section-2col-75-25 {
+        templateName = Section-2col-75-25
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-3col < lib.contentElement
+    section-3col {
+        templateName = Section-3col
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-4col < lib.contentElement
+    section-4col {
+        templateName = Section-4col
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-grid-auto < lib.contentElement
+    section-grid-auto {
+        templateName = Section-grid-auto
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-fullwidth < lib.contentElement
+    section-fullwidth {
+        templateName = Section-fullwidth
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-contained < lib.contentElement
+    section-contained {
+        templateName = Section-contained
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
+    }
+
+    section-split-screen < lib.contentElement
+    section-split-screen {
+        templateName = Section-split-screen
+        templateRootPaths.10 = EXT:mai_sections/Resources/Private/Templates/
+        dataProcessing.100 = B13\Container\DataProcessing\ContainerProcessor
     }
 }

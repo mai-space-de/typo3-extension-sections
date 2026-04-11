@@ -3,3 +3,7 @@ services:
     autowire: true
     autoconfigure: true
     public: false
+
+  Maispace\MaiSections\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
